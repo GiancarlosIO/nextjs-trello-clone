@@ -1,3 +1,6 @@
+import { auth } from "@clerk/nextjs";
+
 export default function OrganizationIdPage() {
-	return <div>Organization Id page</div>;
+	const { orgSlug } = auth();
+	return <div>Organization Id page: {orgSlug}</div>;
 }
