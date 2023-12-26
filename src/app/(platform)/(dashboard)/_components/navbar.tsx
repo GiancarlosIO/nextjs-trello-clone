@@ -12,11 +12,16 @@ export function Navbar() {
 				</div>
 				<Button
 					size="sm"
+					variant="primary"
 					className="rounded-sm hidden sm:block h-auto py-1.5 px-2"
 				>
 					Create
 				</Button>
-				<Button size="sm" className="rounded-sm block sm:hidden">
+				<Button
+					variant="primary"
+					size="sm"
+					className="rounded-sm block sm:hidden"
+				>
 					<Plus className="h-4 w-4" />
 				</Button>
 			</div>
