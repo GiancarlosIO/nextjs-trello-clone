@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 		{
 			url: "/logo.svg",
 			href: "/logo.svg",
+			sizes: "30x30",
 		},
 	],
 };
